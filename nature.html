@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nature · Your Site Title</title>
+    <meta
+      name="description"
+      content="Portfolio website for showcasing photography work."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a class="brand" href="index.html">Ji Long</a>
+          <nav class="desktop-nav" aria-label="Primary">
+            <a href="index.html" aria-current="page">Work</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="Open menu"
+            data-menu-toggle
+          >
+            <span class="menu-icon"></span>
+          </button>
+        </div>
+      </header>
+      <div class="mobile-menu" id="mobile-menu" data-mobile-menu>
+        <nav class="mobile-nav" aria-label="Mobile">
+          <a href="work.html">Work</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <main id="main" class="page-nature">
+        <section class="category-page">
+          <div class="container">
+            <h1 class="category-title">Portrait</h1>
+
+            <div class="category-media">
+              <figure>
+                <img src="assets/images/Portrait.png" alt="Japan" />
+              </figure>
+              <figure>
+                <img src="assets/images/p4.png" alt="Japan" />
+              </figure>
+              <figure>
+                <img src="assets/images/p2.png" alt="Japan" />
+              </figure>
+              <figure>
+                <img src="assets/images/p3.png" alt="Japan" />
+              </figure>
+
+              <p class="category-caption"></p>
+              <nav class="category-pagination" aria-label="Category navigation">
+                <a class="category-pagination__prev" href="product.html"
+                  ><span class="category-arrow">‹</span><span>Product</span></a
+                >
+                <span
+                  class="category-pagination__spacer"
+                  aria-hidden="true"
+                ></span>
+                <a class="category-pagination__next" href="people.html"
+                  ><span>Green</span><span class="category-arrow">›</span></a
+                >
+              </nav>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
